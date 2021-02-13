@@ -1,6 +1,9 @@
 /*Realice un programa en C++ que defina un arreglo de enteros de 12 elementos,
 permita ingresar los valores por teclado, encuentre el valor máximo y lo muestre en
 pantalla.*/
+
+//Ahora funciona con numeros negativos
+
 #include <iostream>
 
 using namespace std;
@@ -13,6 +16,7 @@ int tarea1() {
 		cout<<"Ingrese el elemento No. "<<x+1<<": ";
 		cin>>arreglo[x];		
 	}
+	mayor = arreglo [0];
 	for (int y=0; y<12; y++){
 		if (mayor < arreglo [y]){
 		mayor = arreglo [y];
