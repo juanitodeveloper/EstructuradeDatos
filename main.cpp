@@ -9,11 +9,15 @@ void tarea1();
 void tarea2();
 void tarea3();
 void tarea4();
+void tarea5();
+void tarea6();
 
 int main() {
 	//tarea1();
 	//tarea2();
 	//tarea3();
-	tarea4();
+	//tarea4();
+	//tarea5();
+	tarea6();
 	return 0;
 }
