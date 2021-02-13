@@ -8,10 +8,12 @@ using namespace std;
 void tarea1();
 void tarea2();
 void tarea3();
+void tarea4();
 
 int main() {
 	//tarea1();
 	//tarea2();
-	tarea3();
+	//tarea3();
+	tarea4();
 	return 0;
 }
