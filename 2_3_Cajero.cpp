@@ -1,3 +1,14 @@
+/*
+Considere una situación de la vida real. Formule una pregunta y luego
+diseñe una simulación que pueda ayudar a responderla. Las posibles
+situaciones incluyen:
+
+• Un cajero de banco
+Asegúrese de indicar cualquier suposición que usted haga y proporcione
+cualquier dato probabilístico que deba considerarse como parte del escenario.
+
+*/
+
 //Guardar los datos de clientes haciendo fila en un cajero y al 
 //finalizar mostrar los datos en orden
 
