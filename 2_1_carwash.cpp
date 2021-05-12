@@ -1,3 +1,14 @@
+/*
+Considere una situación de la vida real. Formule una pregunta y luego
+diseñe una simulación que pueda ayudar a responderla. Las posibles
+situaciones incluyen:
+• Carros alineados en un servicio “auto-lavado”
+
+Asegúrese de indicar cualquier suposición que usted haga y proporcione
+cualquier dato probabilístico que deba considerarse como parte del escenario.
+
+*/
+
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
