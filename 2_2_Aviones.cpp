@@ -1,3 +1,16 @@
+/*
+Considere una situación de la vida real. Formule una pregunta y luego
+diseñe una simulación que pueda ayudar a responderla. Las posibles
+situaciones incluyen:
+
+• Aviones despegando y aterrizando en una pista
+
+Asegúrese de indicar cualquier suposición que usted haga y proporcione
+cualquier dato probabilístico que deba considerarse como parte del escenario.
+
+*/
+
+
 #include<conio.h>
 #include<string.h>
 #include<iostream>
