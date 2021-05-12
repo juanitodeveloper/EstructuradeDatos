@@ -1,3 +1,36 @@
+/*
+(simulación de Supermercado) Escriba un programa que simule una línea para
+pagar en un supermercado. La línea es un objeto cola. Los clientes (es decir,
+los objetos clientes) llegan en intervalos enteros aleatorios de 1 a 4 minutos.
+además, a cada cliente se le atiende en intervalos enteros aleatorios de 1 a 4
+minutos. Obviamente, los ritmos necesitan balancearse. Si el ritmo promedio
+de llegada es mayor que el ritmo promedio de atención, la cola crecerá
+infinitamente, incluso con ritmos “balanceados”, el factor aleatorio puede aún
+provocar largas líneas. Ejecute la simulación del supermercado durante un día
+de 12 horas (720 minutos), utilizando el siguiente algoritmo:
+1.  Elegir un entero aleatorio entre 1 y 4 para determinar el minuto en el
+que debe llegar el primer cliente
+2.  Al momento en que llegue el cliente:
+Determinar el tiempo de atención del cliente (entero aleatorio de 1 a 4 al
+tiempo actual)
+3.  Para cada minuto del día:
+Si llega el siguiente cliente,
+Decirlo así.
+Poner el cliente en la cola.
+Programar la hora de llegada del siguiente
+cliente Si se terminó de atender al último cliente,
+Decirlo así,
+Sacar la cola al siguiente cliente al que va a atender
+Determinar el tiempo requerido para dar servicio al cliente (se
+suma un entero aleatorio de 1 al tiempo actual).
+Ahora ejecute su simulación durante 720 minutos y responda a cada una de las
+siguientes preguntas:
+a.  ¿Cuál es el máximo número de clientes en la cola, en cualquier
+momento dado?
+b.  ¿Cuál es el tiempo de espera más largo que experimenta un cliente?
+c.  Que ocurre si el intervalo de llegada se cambia de 1 a 4 minutos por
+un intervalo de 1 a 3 minutos.
+*/
 
 #include <stdio.h>   // printf()
 #include <malloc.h>  // malloc()
